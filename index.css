@@ -1,0 +1,73 @@
+.mod-panel {
+    width: 100%;
+    max-width: 740px;
+    margin: 0 auto 30px;
+    _width: 690px;
+}
+.mod-panel .hd{
+    padding-top: 25px;
+    margin-bottom: 10px;
+    line-height: 30px;
+    text-align: center;
+}
+.mod-panel .hd h1{
+    font-size: 24px;
+    color:#212121;
+}
+.mod-panel .hd .description{
+    padding: 20px 0;
+    line-height: 26px;
+}
+.mod-panel .bd{
+    overflow: hidden;
+    margin: 0 auto;
+}
+.mod-panel .ft{
+    padding:10px 0;
+    line-height: 1.8;
+}
+.mod-panel .bd .capital-tabs{
+    padding: 8px 0;
+    border-bottom: solid 1px #ccc;
+    font-size: 0;
+}
+.mod-panel .bd .capital-tabs a{
+    display: inline-block;
+    padding: 0 20px;
+    margin:0 10px 10px 0;
+    border: solid 1px #B8DCF5;
+    background: #EDF7FF;
+    line-height: 34px;
+    font-size: 16px;
+    color: #348BCF;
+}
+.mod-panel .bd .capital-tabs a:hover,
+.mod-panel .bd .capital-tabs a.active{
+    border-color: #348BCF;
+    background: #348BCF;
+    color: #fff;
+    text-decoration: none;
+}
+.mod-panel .bd .panels table{
+    width: 100%;
+}
+.mod-panel .bd .panel{
+    display: none;
+    margin-top: 20px;
+}
+.mod-panel .bd .panels th,
+.mod-panel .bd .panels td{
+    border: solid 1px #B8DCF5; 
+    text-align: center;
+    line-height: 32px;
+}
+.mod-panel .bd .panels th{
+    background: #EDF7FF;
+    color: #348BCF;
+}
+.mod-panel .bd .panels td.sc{
+    line-height: 20px;
+}
+.mod-panel .bd .panels .active{
+    display: block;
+}
